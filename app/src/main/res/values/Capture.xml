@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="read_timeout">10</integer>
+    <integer name="buffer_size">10240</integer>
+    <integer name="snaplen">2048</integer>
+    <integer name="count">10</integer>
+</resources>
