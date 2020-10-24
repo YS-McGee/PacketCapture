@@ -1,21 +1,15 @@
 package com.example.packetcapture;
 
-import android.app.Notification;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.os.Build;
 import android.os.Bundle;
 
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.app.NotificationCompat;
 
-import android.view.View;
-
-import com.example.packetcapture.R;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class NotificationActivity extends AppCompatActivity {
 

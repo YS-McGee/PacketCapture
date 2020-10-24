@@ -53,7 +53,7 @@ public class PacketSniffer implements Runnable {
             // 輸出格式:
             //   TT IP XX.XX.XX.XX.PORT > XX.XX.XX.XX.PORT: UDP, length NN
             while (looping && ((line = reader.readLine()) != null)) {
-                String[] arr = line.split(" +");
+                String[] arr = line.trim().split(" +");
 
                 if (arr.length < 8) continue;
                 // 非 IP4 封包
